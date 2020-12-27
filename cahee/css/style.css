@@ -333,3 +333,62 @@ button {
 .footer__item--red {
   color:#ff2b58;
 }
+/*form end*/
+/*section services start*/
+.services__main {
+  background-color:#70bfff;
+  height: 790px;
+  padding: 100px 10px 151px 10px;
+}
+.services__title {
+  height:100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url(../images/tomato.png) no-repeat center;
+}
+.services__links {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+}
+.services__list {
+  list-style-type:none;
+}
+.services__link {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  margin: 20px 132px 20px 0;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services__li {
+  display: inline-block;
+  margin-right: auto ;
+  margin-left: auto;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.35;
+  text-align: center;
+  color: #262626;
+  text-decoration: none;
+}
+.services__icon  {
+  display: inline-block;
+  margin-right: 15px ;
+  margin-left: auto;
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: right;
+  color: #262626;
+  text-decoration: none; 
+}
+/*section services end*/
