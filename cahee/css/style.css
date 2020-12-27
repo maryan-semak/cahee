@@ -232,3 +232,163 @@ button {
 }
 
 /* Header style end */
+
+.title__text-center-black {
+  font-family: Raleway;
+  font-size: 90px;
+  color: #000000;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.form__subtitle {
+  line-height: 1.47;
+  font-size: 17px;
+  margin-bottom: 47px;
+  color: #000000;
+  max-width: 574px;
+  margin: 0 auto 47px;
+  text-align: center;
+}
+.form__general{
+  padding: 100px 0 0 0 ;
+  width: 100%;
+  background: url(../images/contact-bg.png) no-repeat center/cover;
+}
+.form__main {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px auto auto 50px;
+
+}
+.form__field {
+  max-width: 500px;
+  height: 50px;
+  margin:  15px auto auto 50px;
+  padding: 20px 400px 19px 20px;
+  opacity: 0.5;
+  background-color: #64d1d5;
+}
+.form__field--placeholder {
+  max-width: 500px;
+  height: 250px;
+  margin: 15px auto 70px 50px;
+  padding: 20px 383px 216px 20px;
+  opacity: 0.5;
+  background-color:  #64d1d5;
+}
+.form__field:hover {
+ background-color:#00c4c4;
+ border-left: 5px solid  #355b82;
+}
+.form__field--placeholder:hover{
+  background-color:#00c4c4;
+  border-left: 5px solid  #355b82;
+ }
+.main__address {
+  margin:  15px auto auto 50px;
+}
+.address__title {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #262626;
+}
+.address__text {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #262626;
+}
+.form__footer {
+  height: 90px;
+  padding: 40px 10px 30px;
+  background-color: #262626;
+  font-family: Pacifico;
+  font-size: 25px;
+  line-height: 1;
+  color: #b9b9b9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer__item {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.56;
+  color: #b9b9b9;
+}
+.footer__item--logo {
+  font-family: Pacifico;
+  font-size: 25px;
+  line-height: 1;
+  text-align: center;
+  color: #b9b9b9;
+}
+.footer__item--red {
+  color:#ff2b58;
+}
+/*form end*/
+/*section services start*/
+.services__main {
+  background-color:#70bfff;
+  height: 790px;
+  padding: 100px 10px 151px 10px;
+}
+.services__title {
+  height:100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url(../images/tomato.png) no-repeat center;
+}
+.services__links {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+}
+.services__list {
+  list-style-type:none;
+}
+.services__link {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  margin: 20px 132px 20px 0;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services__li {
+  display: inline-block;
+  margin-right: auto ;
+  margin-left: auto;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.35;
+  text-align: center;
+  color: #262626;
+  text-decoration: none;
+}
+.services__icon  {
+  display: inline-block;
+  margin-right: 15px ;
+  margin-left: auto;
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: right;
+  color: #262626;
+  text-decoration: none; 
+}
+/*section services end*/
