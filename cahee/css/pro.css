@@ -1,0 +1,23 @@
+.gallery__list {
+  margin-bottom: 20px;
+}
+.gallery__item {
+  margin-bottom: 15px;
+}
+.gallery__item:hover {
+  transform: scale(1.02);
+}
+.gallery__item img {
+  width: 100%;
+}
+.gallery__button {
+  background-color: #5585a2;
+}
+.gallery__footer {
+  text-align: center;
+}
+
+.section--gallery {
+  background-color: #ffe92f;
+  padding: 96px 0 120px;
+}
