@@ -1,0 +1,18 @@
+
+@media screen and (max-width: 992px) {
+ .nav {
+     display: none;
+ }
+ .menu-icon {
+    display: none; 
+}
+ }
+}
+  @media screen and (max-width: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }

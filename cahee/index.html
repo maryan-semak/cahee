@@ -13,9 +13,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/styleIcon.css">
   <link rel="stylesheet" href="css/pro.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -30,16 +32,35 @@
             <nav class="nav">
               <a href="#" class="nav__link">HOME</a>
               <a href="#about" class="nav__link">ABOUT</a>
-              <a href="#" class="nav__link">SERVICES</a>
-              <a href="#" class="nav__link">GALLERY</a>
+              <a href="#services" class="nav__link">SERVICES</a>
+              <a href="#gallery" class="nav__link">GALLERY</a>
               <a href="#blog" class="nav__link">BLOG</a>
-              <a href="#" class="nav__link">CONTACT</a>
+              <a href="#contact" class="nav__link">CONTACT</a>
             </nav>
+            <div class="menu__icon"  onclick='openNav()'>
+              <i class="fas fa-bars"></i>
+            </div>
+            <div id="myNav" class="overlay">
+
+              <!-- Button to close the overlay navigation -->
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+              <!-- Overlay content -->
+              <div class="overlay-content">
+                <a href="#" class="nav__link">HOME</a>
+              <a href="#about" class="nav__link">ABOUT</a>
+              <a href="#services" class="nav__link">SERVICES</a>
+              <a href="#gallery" class="nav__link">GALLERY</a>
+              <a href="#blog" class="nav__link">BLOG</a>
+              <a href="#contact" class="nav__link">CONTACT</a>
+              </div>
+            
+            </div>
           </div>
         </div>
         <div class="section__content">
           <div class="row">
-            <div class="col-4">
+            <div class="col-sm-12 col-md-8 col-lg-4">
               <h1 class="section__title section__title--primary">Fresh Life</h1>
               <p class="section__description section__description--dark">Sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad
@@ -60,7 +81,7 @@
           <div class="col-6">
             <img src="images/img.png" alt="fruits">
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-8 col-lg-6">
             <h2 class="section__title section__title--secondary">About Us</h2>
             <p class="section__description section__description--light">
               Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -75,10 +96,10 @@
         </div>
       </div>
     </section>
-    <section class="section section--services">
+    <section class="section section--services" id="services">
       <div class="services__main">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-12 col-lg-6">
             <div class="services__links">
               <ul class="services__list">
                 <li class="services__link"><a class="services__li" href="services__link">Online Shopping </a><a href="" class="services__icon icon-icon1"></a></li>
@@ -88,7 +109,7 @@
               </ul>
             </div>
         </div>
-          <div class="col-6">
+          <div class="col-sm-12  col-lg-6">
             <div class="services__title">
             <h2 class="section__title section__title--secondary">Our Services</h2>
            </div>
@@ -101,12 +122,12 @@
         <p class="subtitle subtitle--dark ">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <div class="gallery__list">
         <div class="row">
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <div class="gallery__item">
               <img src="images/gallery1.png" alt="">
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-sm-4">
             <div class="gallery__item">
               <img src="images/gallery2.png" alt="">
             </div>
@@ -114,12 +135,12 @@
               <img src="images/gallery3.png" alt="">
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-sm-6">
             <div class="gallery__item">
               <img src="images/gallery4.png" alt="">
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-sm-6">
             <div class="gallery__item">
               <img src="images/gallery5.png" alt="">
             </div>
@@ -140,7 +161,7 @@
         <p class="subtitle">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
           ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-4">
             <a href="" class="link">
               <img src="images/blog-1.png" alt="blog 1">
               <div class="date"><span class="number">20</span> NOV</div>
@@ -151,7 +172,7 @@
               </div>
             </a>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-4">
             <a href="" class="link">
               <img src="images/blog-2.png" alt="blog 2">
               <div class="date"><span class="number">14</span> NOV</div>
@@ -161,7 +182,7 @@
               </div>
             </a>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-4 mb-4">
             <a href="" class="link">
               <img src="images/blog-3.png" alt="blog 3">
               <div class="date"><span class="number">10</span> NOV</div>
@@ -180,7 +201,7 @@
         </div>
       </div> 
     </section>
-    <section class="section section--form">
+    <section class="section section--form" id="contact">
       <div class="form__general">
       <div class="form__header">
       <div class="container">
@@ -190,7 +211,7 @@
       </div>
       </div>
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-md-8 col-lg-6">
             <form class="form__main" method="post" action="form.php">
               <input class="form__field" type="text" name="name" required placeholder="Auskteez Tran">
               <input class="form__field" type="email" name="email" required placeholder="Your email...">
@@ -198,7 +219,7 @@
               <input class="form__field--placeholder" type="placeholder" name="placeholder" required placeholder="Your messge...">
             </form> 
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-8 col-lg-6">
             <div class="main__address">
             <h4 class="address__title">ADDRESS</h4>
             <p class="address__text">123 City name, Street, City, Country</p>
@@ -221,6 +242,14 @@
     </div>
   </section>
   </main>
+  <script>
+    function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+  </script>
 </body>
 
 </html>
